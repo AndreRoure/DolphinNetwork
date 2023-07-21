@@ -1,7 +1,7 @@
 import graph
 
 def main(path):
-    dolphinGraph = matrix.DolphinGraph(path)
+    dolphinGraph = graph.DolphinGraph(path)
 
     print("Maximal Cliques without pivot:")
     for c in dolphinGraph.noPivotBK():
